@@ -1,1 +1,1 @@
-const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('#main-nav');if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));});}
+// The main navigation is intentionally simple; full-screen hero footage is decorative and respects reduced-motion settings via the browser's image rendering.
